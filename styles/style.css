@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CCAE7C;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:aqua;
+}
+
+.container {
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+#gifoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh;
+    background-color: #CCAE7C;
+    z-index: 9999;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.enterthezone {
+    width: 90vw !important;
+    height: 90vh !important;
+    object-fit: contain;
+
+    position: relative;
+    max-width: none !important;
+    max-height: none !important;
+}
+
+.hidden {
+    display: none !important;
+}
