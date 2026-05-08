@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="eng-US'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0" />
+        <title>REAL COOL MIKE NETWORK</title>
+        <link rel="icon" href="images/Untitled (1).gif">
+        <link rel="stylesheet" href="styles/style.css">
+        
+    </head>
+    <body>
+        <h1>Welcome to The REAL COOL MIKE NETORK!!</h1>
+        <li></li>
+        </li>
+        <p><img src="images/smart.gif" width="70">&emsp;&emsp;"Where Your dreams will all come true"&emsp;&emsp;<img src="images/cool.gif" width="70"></p>
+        <li></li>
+        <img src="images/coolmike.png" height="700" width="700"/>
+        <li></li>
+        <p><img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        </p>
+        <nav>
+            <ul>
+                <h2><a href="mikezone.html" id="enterLink">!!!ENTER!!!</a></h2>
+            </ul>
+        </nav>
+        <p><img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        <img src="images/Untitled (1).gif" width="70">
+        </p>
+        <p><br><br><img src="images/pointinggif.gif" width="100">YOU can contact the website adminisstrator at mike@cool.com <br><br> Remember to Stay COOL!<br><br></p>
+
+        <div id="gifoverlay" class="hidden">
+            <img src="images/Untitled (2).gif" class="enterthezone">
+        </div>
+
+        <script>
+            const enterLink = document.getElementById('enterLink');
+            const gifoverlay = document.getElementById('gifoverlay');
+
+            enterLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                gifoverlay.classList.remove('hidden');
+                setTimeout(function() {
+                    window.location.href = enterLink.href;
+                }, 3000);
+            })
+        </script>
+    </body>
+</html>
